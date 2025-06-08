@@ -1,0 +1,29 @@
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+*.ids
+*.orig
+*.prefs
+*.bak
+/workspace.xml
+/nbproject/private/
+
+### System ###
+.DS_Store
+Thumbs.db
+
+### Compiled ###
+/out/
+/target/
+/build/
+*.class
+
+### Temporary ###
+*.log
+*.tmp
+*.swp
+
+### Other ###
+material_theme_project_new.xml

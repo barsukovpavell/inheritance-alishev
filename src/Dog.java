@@ -1,10 +1,10 @@
-public class Dog extends Animal{
+public class Dog extends Animal {
 
     public Dog(int id) {
-        super(id);
+        this.id = id;
     }
 
-    public void bark(){
+    public void bark() {
         System.out.println("Гав!");
     }
 
@@ -18,7 +18,7 @@ public class Dog extends Animal{
         System.out.println("Я сплю в будке.");
     }
 
-    public void showName(){
+    public void showName() {
         System.out.println(name);
     }
 }

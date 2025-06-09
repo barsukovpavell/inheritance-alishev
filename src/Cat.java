@@ -1,5 +1,9 @@
 public class Cat extends Animal {
 
+    public Cat(int id) {
+        super(id);
+    }
+
     public void showSound() {
         System.out.println("Мяу!");
     }

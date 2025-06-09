@@ -1,11 +1,14 @@
 public class Animal implements Info {
+    String name = "I'm alive!";
     public int id;
 
-    public void showInfo() {
-        System.out.println("Мой id: " + id);
+    public Animal(int id) {
+        this.id = id;
     }
 
-    String name = "I'm alive!";
+    public void showInfo() {
+        System.out.println("Наш id: " + this.id);
+    }
 
     public void showName() {
         System.out.println(name);

@@ -1,7 +1,7 @@
 public class Cat extends Animal {
 
     public Cat(int id) {
-        this.id = id;
+        super(id);
     }
 
     public void showSound() {

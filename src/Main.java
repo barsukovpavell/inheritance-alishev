@@ -5,6 +5,13 @@ public class Main {
         Cat cat = new Cat(2);
         Person person = new Person("Bob");
 
+        Animal animal_1 = new Animal(4);
+        Person person_1 = new Person("Ron");
+
+        outputInfo(animal_1);
+        outputInfo(person_1);
+
+        System.out.println();
         person.seyHello();
         person.showInfo();
         System.out.println();
@@ -22,5 +29,9 @@ public class Main {
         cat.eat();
         cat.sleep();
 
+    }
+
+    public static void outputInfo(Info inffo) {
+        inffo.showInfo();
     }
 }

@@ -1,5 +1,8 @@
 public class Dog extends Animal{
 
+    public void bark(){
+        System.out.println("Гав!");
+    }
 
     @Override
     public void eat() {
@@ -8,7 +11,10 @@ public class Dog extends Animal{
 
     @Override
     public void sleep() {
-        super.sleep();
         System.out.println("Я сплю в будке.");
+    }
+
+    public void showName(){
+        System.out.println(name);
     }
 }

@@ -1,14 +1,17 @@
-public class Cat extends Animal{
+public class Cat extends Animal {
+
+    public void showSound() {
+        System.out.println("Мяу!");
+    }
 
     @Override
     public void eat() {
-        super.eat();
         System.out.println("Я ем рыбу");
     }
 
     @Override
     public void sleep() {
-        super.sleep();
         System.out.println("Я сплю в доме.");
     }
+
 }
